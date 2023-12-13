@@ -19,7 +19,7 @@
 /* custom styles */
 
 header {
-    background-color: rgb(30, 30, 32);
+    background-color: rgb(19, 84, 48);
     padding: 5px 20%;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ header nav a:hover::after {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(50, 51, 53);
+    background-color: rgb(255, 255, 255);
   }
 
 .headshot {
@@ -53,8 +53,20 @@ img {
     max-width: 70%;
 }
 
+.img2 {
+    width: 50%;
+    height: auto;
+}
+
+.img3 {
+    width: 35%;
+    height: auto;
+}
+
 header nav a {
     color: white;
+    padding: 5px;
+    font-size: 20px;
 }
 
 article h2 {
@@ -69,6 +81,7 @@ article h2 {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    justify-content: space-evenly;
 }
